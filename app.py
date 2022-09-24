@@ -46,9 +46,9 @@ def handle_message(event):
         event.reply_token,
         message)
 
-    line_bot_api.push_message(
-        '1657249626',
-        TextSendMessage(text='你可以開始了'))
+    # line_bot_api.push_message(
+    #     '1657249626',
+    #     TextSendMessage(text='你可以開始了'))
 
 if __name__ == "__main__":
     app.run()
