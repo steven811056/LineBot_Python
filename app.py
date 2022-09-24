@@ -50,10 +50,10 @@ def handle_message(event):
     #     '1657249626',
     #     TextSendMessage(text='你可以開始了'))
 
-if __name__ == "__main__":
-    app.run()
 # if __name__ == "__main__":
-# 　　port = int(os.environ.get('PORT', 5000))
-# 　　app.run(host='0.0.0.0', port=port)
+#     app.run()
+import os if __name__ == "__main__":
+　　port = int(os.environ.get('PORT', 5000))
+　　app.run(host='0.0.0.0', port=port)
 
 
